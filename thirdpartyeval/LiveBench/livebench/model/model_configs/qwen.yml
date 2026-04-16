@@ -1,0 +1,91 @@
+# Qwen Models
+---
+display_name: qwen2.5-7b-instruct-turbo
+api_name:
+  together: Qwen/Qwen2.5-7B-Instruct-Turbo
+aliases:
+  - qwen2.5-7b-instruct
+---
+display_name: qwen2.5-72b-instruct-turbo
+api_name:
+  together: Qwen/Qwen2.5-72B-Instruct-Turbo
+aliases:
+  - qwen2.5-72b-instruct
+---
+display_name: qwen2.5-coder-32b-instruct
+api_name:
+  together: Qwen/Qwen2.5-Coder-32B-Instruct
+aliases:
+  - qwen2.5-coder-32b-instruct
+---
+display_name: qwq-32b-preview
+api_name:
+  together: Qwen/QwQ-32B-Preview
+api_kwargs:
+  default:
+    max_tokens: 16000
+    temperature: 0.7
+    top_p: 0.95
+---
+display_name: qwq-32b
+api_name:
+  together: Qwen/QwQ-32B
+api_kwargs:
+  default:
+    max_tokens: 31000
+    temperature: 0.7
+    top_p: 0.95
+---
+display_name: qwen-max
+api_name:
+  https://dashscope.aliyuncs.com/compatible-mode/v1: qwen-max
+api_keys:
+  https://dashscope.aliyuncs.com/compatible-mode/v1: ALIBABA_API_KEY
+---
+display_name: qwen3-30b-a3b-thinking
+api_name:
+  https://api.deepinfra.com/v1/openai: Qwen/Qwen3-30B-A3B
+api_keys:
+  https://api.deepinfra.com/v1/openai: DEEPINFRA_API_KEY
+api_kwargs:
+  default:
+    max_tokens: 38912
+    temperature: 0.6
+    top_p: 0.95
+prompt_prefix: "/think"
+---
+display_name: qwen3-30b-a3b
+api_name:
+  https://api.deepinfra.com/v1/openai: Qwen/Qwen3-30B-A3B
+api_keys:
+  https://api.deepinfra.com/v1/openai: DEEPINFRA_API_KEY
+api_kwargs:
+  default:
+    temperature: 0.7
+    top_p: 0.8
+    max_tokens: 32000
+prompt_prefix: "/no_think"
+---
+display_name: qwen3-235b-a22b-thinking
+api_name:
+  https://api.deepinfra.com/v1/openai: Qwen/Qwen3-235B-A22B
+api_keys:
+  https://api.deepinfra.com/v1/openai: DEEPINFRA_API_KEY
+api_kwargs:
+  default:
+    max_tokens: 38912
+    temperature: 0.6
+    top_p: 0.95
+prompt_prefix: "/think"
+---
+display_name: qwen3-32b-thinking
+api_name:
+  https://api.deepinfra.com/v1/openai: Qwen/Qwen3-32B
+api_keys:
+  https://api.deepinfra.com/v1/openai: DEEPINFRA_API_KEY
+api_kwargs:
+  default:
+    max_tokens: 38912
+    temperature: 0.6
+    top_p: 0.95
+prompt_prefix: "/think"

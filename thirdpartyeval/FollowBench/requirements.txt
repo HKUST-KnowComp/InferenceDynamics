@@ -1,0 +1,6 @@
+vllm
+transformers
+fschat
+openai
+matplotlib
+tqdm
